@@ -1,0 +1,81 @@
+<!-- Tic-Tac-Toe
+
+Requirements:
+- A user should be able to click on different squares to make a move.
+- Every click will alternate between marking an X and O
+- Upon marking of an individual cell, use javascript to add a class to 	each cell to display separate colors.
+- A cell should not be able able to replayed once marked.
+- Add a reset button that will clear the contents of the board.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <script src="tic_tac.js"></script>
+  <link rel="stylesheet" type="text/css" href="tic_tac.css">
+</head>
+<body>
+<table>
+<div class= "container grid">
+
+  <div class="col-md-12 text-center">
+    <h2 id = "title">Tic. Tac. Toe.</h2>
+  </div>
+
+  <div class= "table">
+    <div class="row">
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+
+      <div class="col-md-3 col-xs-4 col-sm-4 selector">
+      </div>
+    </div>
+  </div>
+<div>
+
+<button type="submit" value="Reset" id="reset" btn btn-default btn-lg>
+<span class="glyphicon glyphicon-refresh"></span>
+</button>
+
+</div>
+ 
+</div>
+</body>
+</html>
+
+
